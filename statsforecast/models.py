@@ -2390,7 +2390,7 @@ class Holt(AutoETS):
     This implementation returns the corresponding `ETS` model with additive (A) or multiplicative (M) errors (so either 'AAN' or 'MAN').
 
     **References:**<br>
-    [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Methods with trend"](https://otexts.com/fpp3/holt.html).
+    [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Methods with trend"](https://www.otexts.com/fpp3/holt.html).
 
     Parameters
     ----------
@@ -2422,7 +2422,7 @@ class HoltWinters(AutoETS):
     This implementation returns the corresponding `ETS` model with additive (A) or multiplicative (M) errors (so either 'AAA' or 'MAM').
 
     **References:**<br>
-    [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Methods with seasonality"](https://otexts.com/fpp3/holt-winters.html).
+    [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Methods with seasonality"](https://www.otexts.com/fpp3/holt-winters.html).
 
     Parameters
     ----------
@@ -2475,7 +2475,7 @@ class HistoricAverage(_TS):
         $$ \hat{y}_{t+1} = \\frac{1}{t} \sum_{j=1}^t y_j $$
 
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html).
 
         Parameters
         ----------
@@ -2631,7 +2631,7 @@ class Naive(_TS):
         $\hat{y}_{t+1} = y_t$ for all $t$
          
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html).
 
         Parameters
         ----------
@@ -2811,7 +2811,7 @@ class RandomWalkWithDrift(_TS):
         the first and the last observation.
 
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html).
 
         Parameters
         ----------
@@ -2962,7 +2962,7 @@ class SeasonalNaive(_TS):
         A method similar to the naive, but uses the last known observation of the same period (e.g. the same month of the previous year) in order to capture seasonal variations.
 
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html#seasonal-na%C3%AFve-method).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html#seasonal-na%C3%AFve-method).
 
         Parameters
         ----------
@@ -3149,7 +3149,7 @@ class WindowAverage(_TS):
         observations and how fast the series changes.
 
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html).
 
         Parameters
         ----------
@@ -3292,7 +3292,7 @@ class SeasonalWindowAverage(_TS):
         An average of the last $k$ observations of the same period, with $k$ the length of the window.
 
         **References:**<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://otexts.com/fpp3/simple-methods.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "forecasting principles and practice, Simple Methods"](https://www.otexts.com/fpp3/simple-methods.html).
 
         Parameters
         ----------

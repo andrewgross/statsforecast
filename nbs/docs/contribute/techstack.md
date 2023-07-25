@@ -16,7 +16,7 @@ If you're interested in making code contributions, possessing any of the followi
 
 ### Time Series Theory
 
-- [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+- [Forecasting: Principles and Practice](https://www.otexts.com/fpp3/)
 - [Python Adaptation](https://github.com/Nixtla/fpp3-python) of Forecasting: Principles and Practice
 
 

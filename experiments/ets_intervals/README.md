@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-[AutoETS](https://nixtla.github.io/statsforecast/models.html#autoets) is a fast and reliable model in [StatsForecast](https://nixtla.github.io/statsforecast/) that automatically selects the best [ETS model](https://otexts.com/fpp3/ets.html) for a given time series. It is a probabilistic model and it can generate prediction intervals for any confidence level. In this experiment, we'll show that these prediction intervals are accurate and fast when compared to two well-known forecasting libraries: R's [forecast](https://pkg.robjhyndman.com/forecast/) package and [statsmodels](https://www.statsmodels.org/dev/index.html). 
+[AutoETS](https://nixtla.github.io/statsforecast/models.html#autoets) is a fast and reliable model in [StatsForecast](https://nixtla.github.io/statsforecast/) that automatically selects the best [ETS model](https://www.otexts.com/fpp3/ets.html) for a given time series. It is a probabilistic model and it can generate prediction intervals for any confidence level. In this experiment, we'll show that these prediction intervals are accurate and fast when compared to two well-known forecasting libraries: R's [forecast](https://pkg.robjhyndman.com/forecast/) package and [statsmodels](https://www.statsmodels.org/dev/index.html). 
 
 ## Experiment 
 
@@ -24,9 +24,9 @@ As stated in the introduction, this experiment will test the performance in accu
 2. R's forecast package 
 3. statsmodels
 
-To measure the accuracy of the prediction intervals, we'll use the [Winkler score](https://otexts.com/fpp3/distaccuracy.html). The final score for each frequency is computed using the mean or the median of the Winkler scores of all time series. Conventionally, the mean is used, but here we also included the median to eliminate the extreme cases found in statsmodels. 
+To measure the accuracy of the prediction intervals, we'll use the [Winkler score](https://www.otexts.com/fpp3/distaccuracy.html). The final score for each frequency is computed using the mean or the median of the Winkler scores of all time series. Conventionally, the mean is used, but here we also included the median to eliminate the extreme cases found in statsmodels. 
 
-Both StatsForecast and R can automatically select the best ETS model for a given time series. Here by "best" we mean the model with the lowest Akaike Information Criterion (AICc). statsmodels doesn't have this functionality, so we first find the best model, and then we generate their prediction intervals. In all cases, if no ETS model can be generated, then a [naive](https://otexts.com/fpp3/simple-methods.html) model is used. 
+Both StatsForecast and R can automatically select the best ETS model for a given time series. Here by "best" we mean the model with the lowest Akaike Information Criterion (AICc). statsmodels doesn't have this functionality, so we first find the best model, and then we generate their prediction intervals. In all cases, if no ETS model can be generated, then a [naive](https://www.otexts.com/fpp3/simple-methods.html) model is used. 
 
 ## Results 
 

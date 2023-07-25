@@ -175,7 +175,7 @@ class FugueBackend(ParallelBackend):
         **References:**<br>
         The [core.StatsForecast's cross validation](https://nixtla.github.io/statsforecast/core.html#statsforecast.cross_validation)
         method documentation.<br>
-        [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Temporal Cross-Validation"](https://otexts.com/fpp3/tscv.html).
+        [Rob J. Hyndman and George Athanasopoulos (2018). "Forecasting principles and practice, Temporal Cross-Validation"](https://www.otexts.com/fpp3/tscv.html).
         """
         level = kwargs.get("level", [])
         schema = "*-y+" + str(self._get_output_schema(models, level, mode="cv"))
